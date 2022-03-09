@@ -1,0 +1,78 @@
+/* For carousel first image */
+.he {
+  height: 300px;
+}
+/* For carousel image escape from home page */
+.he2 {
+  opacity: 0.8;
+  height: 180px;
+}
+
+/* For carousel getstard button */
+.lis {
+  text-decoration: none;
+  color: grey;
+}
+/* For navbar logo image */
+.wi {
+  width: 55px;
+}
+.he3 {
+  height: 50px;
+}
+.he4 {
+  height: 5px;
+}
+/* for rotated image  in Content part 2 */
+.rotated {
+  transform: rotate(5deg); /* Equal to rotateZ(45deg) */
+  background-color: pink;
+}
+
+/* For footer */
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #282d32;
+}
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+.item1:hover {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: blueviolet;
+}
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+/* End for footer */
+
+@media (max-width: 767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}

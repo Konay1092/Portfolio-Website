@@ -1,0 +1,35 @@
+/* For icon for Icon list in For nav bar 1 and footer part 2 */
+
+.fa {
+  padding: 2px;
+  font-size: 20px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 12px;
+}
+
+.fa:hover {
+  opacity: 0.3;
+}
+/* Icon for facebook */
+.fa-facebook {
+  background: black;
+  color: white;
+}
+/* Icon for twitter */
+.fa-twitter {
+  background: black;
+  color: white;
+}
+/* Icon for youtube */
+.fa-youtube {
+  background: black;
+  color: white;
+}
+/* Icon for instagram */
+.fa-instagram {
+  background: black;
+  color: white;
+}
